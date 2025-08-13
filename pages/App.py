@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import sys
-
+st.set_page_config(layout="wide")
 # Mevcut pipeline import
 sys.path.append('/Users/yunusemreozkaya/PycharmProjects/PythonProject11/machine_learning')
 from ScoutMLPipeline import players_data_prep
